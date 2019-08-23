@@ -13,7 +13,7 @@ class Header extends React.Component {
                     responsive site template freebie<br />
                     crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1> */}
                 </div>
-                {/* <Footer /> */}
+                <Footer />
             </header>
         )
     }
