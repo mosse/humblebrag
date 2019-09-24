@@ -2,31 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-// import Lightbox from 'react-images'
-import Gallery from '../components/Gallery'
-
-import thumb01 from '../assets/images/thumbs/01.jpg'
-import thumb02 from '../assets/images/thumbs/02.jpg'
-import thumb03 from '../assets/images/thumbs/03.jpg'
-import thumb04 from '../assets/images/thumbs/04.jpg'
-import thumb05 from '../assets/images/thumbs/05.jpg'
-import thumb06 from '../assets/images/thumbs/06.jpg'
-
-import full01 from '../assets/images/fulls/01.jpg'
-import full02 from '../assets/images/fulls/02.jpg'
-import full03 from '../assets/images/fulls/03.jpg'
-import full04 from '../assets/images/fulls/04.jpg'
-import full05 from '../assets/images/fulls/05.jpg'
-import full06 from '../assets/images/fulls/06.jpg'
-
-const DEFAULT_IMAGES = [
-    { id: '1', source: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '2', source: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '3', source: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '6', source: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
-];
 
 class HomeIndex extends React.Component {
 
@@ -45,65 +20,36 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>markm.ac</h2>
+                            <h1>Mark Macdonald</h1>
                         </header>
-                        <p>Mark Macdonald's home on the web</p>
-                        <ul className="actions">
-                            <li><a href="mailto:hello@markm.ac" className="button">Get in touch</a></li>
-                        </ul>
+                  
+                   
                     </section>
 
-                    {/* <section id="two">
-                        <h2>Recent Work</h2>
+                     <section id="two">
+                  <h2>About Me</h2>
+                  <p>Well hello! I’m Mark, a technical product leader, founder of <a target="0" href="https://gazet.com">Gazet</a>, caretaker at <a href="http://suckagain.com/">Suck, Again</a>, and previously on the founding team at <a target="0" href="https://skimlinks.com">Skimlinks</a>. I have a decade of experience at every stage of the product lifecycle and a dedication to supporting inclusive teams.</p>
 
-                        <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
-                            source,
-                            thumbnail,
-                            caption,
-                            description
-                        }))} />
+<p>I’m continuously fascinated by the power of technology to change the context of human behavior. How do newsfeeds influence the transfer of human knowledge? What are the consequences of shifting the temporal context of media? How can ubiquitous data collection be used to help us make better decisions about our financial, physical, or our planet’s health?</p>
 
-                        <ul className="actions">
-                            <li><a href="#" className="button">Full Portfolio</a></li>
-                        </ul>
+<p>Addressing these types of questions requires empathetic collaboration with a broad range of talent, and that’s something I look for in each aspect of my work. Furthermore, intelligent product development requires constant feedback from users, through smart customer development, and rigorous analysis of product use.</p>
+
+<p>Over the years, I’ve spec’d product, written code, built teams, pitched customers, freelanced, bootstrapped a company, raised money, lost money, celebrated successes and learned from failures. </p>
+
+<p>I began my professional career as a research specialist studying the neural basis of learning and memory first at <a target="0" href="https://www.researchgate.net/publication/5276850_Learning_and_Consolidation_of_Novel_Spoken_Words">Cambridge University</a> then <a target="0" href="https://www.ncbi.nlm.nih.gov/pubmed/18082362">UPenn</a>. While mining terabytes of fMRI brain imaging data I developed an appreciation for careful experimental design and analysis. Additionally, I discovered an appreciate for the power of code that led me to pursue opportunities within the startup world.</p>
+
+<p>After a stint doing QA, ops and customer support for a (<a target="0" href="https://techcrunch.com/2008/09/24/swoopo-entertainment-shopping-or-scam/">notorious</a>!) German e-commerce platform’s UK launch, I found my way to Skimlinks, an online monetization and analytics company headquartered in London. I was the first client facing hire in a tiny team and consequently undertook everything from user research and wireframing on-boarding systems, to presenting at conferences and building custom SQL reports for VIP clients.</p>
+
+<p>As the company grew, I relocated to San Francisco with our CEO to help setup and lead the day-to-day running of our new west-coast office. I hired, trained and managed a team of fourteen Publisher Development Managers across three cities, and collaborated with Engineering, Design and Marketing as a key stakeholder in the launch of numerous successful products.</p>
+
+<p>A long-time hobbyist programmer, on leaving Skimlinks I decided to improve my technical foundation by attending <a target="0" href="https://www.hackreactor.com/">Hack Reactor</a>, an immersive software engineering course in San Francisco. With freelance consulting gigs on the side, and a desire to scratch the entrepreneurial itch, I set about developing a couple of startup ideas before settling on Gazet - a media aggregator powered by a community of volunteer editors.</p>
+
+<p>As the sole product owner and engineer building Gazet (a PWA written in React/Node), I’ve approached the development with a bias towards action and experimentation. Collaborating with a talented product designer and other contractors, I’ve taken care to inform product decisions with measurable user insights and interviews. With limited resources, prioritization is paramount, and I’ve been deliberate in utilizing effective sprint planning and backlog management to ensure technical debt didn’t swamp the project.</p>
+
+<p>Running Gazet has been unbelievably satisfying, but ultimately bootstrapping a media startup is intensely hard, and the time has come to look for new challenges. If you’re interested in working with me, or just want to say hi, please <a href="mailto:hello@markm.ac">drop me a line</a>.</p>
                     </section>
 
-                    <section id="three">
-                        <h2>Get In Touch</h2>
-                        <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
-                        <div className="row">
-                            <div className="8u 12u$(small)">
-                                <form method="post" action="#">
-                                    <div className="row uniform 50%">
-                                        <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                                        <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-                                        <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-                                    </div>
-                                </form>
-                                <ul className="actions">
-                                    <li><input type="submit" value="Send Message" /></li>
-                                </ul>
-                            </div>
-                            <div className="4u 12u$(small)">
-                                <ul className="labeled-icons">
-                                    <li>
-                                        <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        1234 Somewhere Rd.<br />
-                                        Nashville, TN 00000<br />
-                                        United States
-                                    </li>
-                                    <li>
-                                        <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        000-000-0000
-                                    </li>
-                                    <li>
-                                        <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">hello@untitled.tld</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section> */}
+
 
                 </div>
 
