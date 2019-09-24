@@ -9,9 +9,8 @@ class Header extends React.Component {
             <header id="header">
                 <div className="inner">
                     <a href="#" className="image avatar"><img src={avatar} alt="" /></a>
-                    {/* <h1><strong>I am Strata</strong>, a super simple<br />
-                    responsive site template freebie<br />
-                    crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1> */}
+                    <h1><strong>Mark Macdonald</strong></h1>
+                    <h1>Product | Code | Cooking | Cycling </h1><h1 style={{fontSize: '1.0em'}}><i>Not necessarily in that order...</i></h1>
                 </div>
                 <Footer />
             </header>
