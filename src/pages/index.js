@@ -41,7 +41,7 @@ class HomeIndex extends React.Component {
 <p>As the sole product owner and engineer building Gazet (a PWA written in React/Node), I’ve approached the development with a bias towards action and experimentation. Collaborating with a talented product designer and other contractors, I’ve taken care to inform product decisions with measurable user insights and interviews. With limited resources, prioritization is paramount, and I’ve been deliberate in utilizing effective sprint planning and backlog management to ensure technical debt didn’t swamp the project.</p>
 
 <h3>Say hi!</h3>
-<p>Running Gazet has been unbelievably powerful experience. Ultimately, bootstrapping a media startup is intensely hard, and the time has come to look for new challenges. If you’re interested in working with me, or just want to say hi, please <a href="mailto:hello@markm.ac">drop me a line</a>.</p>
+<p>Running Gazet has been unbelievably powerful experience. Ultimately, bootstrapping a media startup is intensely hard, and the time has come to look for new challenges. I'm open to for opportunities with innovative, mission-driven product teams and welcome any chance to chat with like-minded folks. Do <a href="mailto:hello@markm.ac">get in touch</a>!</p>
 
 
 
