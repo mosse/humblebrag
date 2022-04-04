@@ -20,7 +20,7 @@ class HomeIndex extends React.Component {
 
             
 
-                <p>Well hello! I’m Mark, a technical product leader, founder of <a href="https://gazet.com">Gazet</a>, caretaker at <a href="http://suckagain.com/">Suck, Again</a>, and previously on the founding team at <a href="https://skimlinks.com">Skimlinks</a>. I have over a decade of experience at every stage of the product lifecycle and a dedication to supporting inclusive teams.</p>
+                <p>Well hello - I’m Mark, a technical product leader, founder of <a href="https://gazet.com">Gazet</a>, caretaker at <a href="http://suckagain.com/">Suck, Again</a>, and previously on the founding team at <a href="https://skimlinks.com">Skimlinks</a>. I have over a decade of experience at every stage of the product lifecycle and a dedication to supporting inclusive teams.</p>
 
 <p>I’m continuously fascinated by the power of technology to change the context of human behavior. How does newsfeed design influence what we write? What are the consequences of shifting the temporal context of media? How can ubiquitous data collection be used for good and help us make better decisions about our financial, physical, or our planet’s health?</p>
 
